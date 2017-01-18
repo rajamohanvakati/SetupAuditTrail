@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/pages/AuditLogMonitering.page",
+			"settings":
+			{
+				"buffer_size": 5298,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 336.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rvakati/Documents/AuditLog",
+		"/Users/rvakati/Documents/AuditLog/src",
+		"/Users/rvakati/Documents/AuditLog/src/classes",
+		"/Users/rvakati/Documents/AuditLog/src/pages"
+	],
+	"file_history":
+	[
+		"/Users/rvakati/Documents/RajamohanVakati/src/classes/RecentRecordsController.cls",
+		"/Users/rvakati/Documents/RajamohanVakati/src/classes/LightningAccountCreateController.cls",
+		"/Users/rvakati/Documents/RajamohanVakati/src/aura/LightningAccountCreateApp/LightningAccountCreateApp.cmp",
+		"/Users/rvakati/Documents/RajamohanVakati/src/aura/LightningAccountCreateApp1/LightningAccountCreateApp1.app",
+		"/Users/rvakati/Documents/RajamohanVakati/src/aura/RestParams/RestParams.cmp",
+		"/Users/rvakati/Documents/RajamohanVakati/src/aura/RestParams/RestParamsController.js",
+		"/Users/rvakati/Documents/RajamohanVakati/src/aura/restResponseEvent/restResponseEvent.evt",
+		"/Users/rvakati/Documents/RajamohanVakati/src/classes/RestRequestController.cls",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/unbounedExp/unbounedExp.cmp",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/BoundedExpression/BoundedExpression.cmp",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/BoundedExpression/BoundedExpressionController.js",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/unbounedExp/unbounedExpController.js",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/Book_1/Book_1.cmp",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/Book_1/Book_1.css",
+		"/Users/rvakati/Documents/RVAKATi/src/aura/Book_APP/Book_APP.app",
+		"/Users/rvakati/Downloads/api_rest.pdf",
+		"/Users/rvakati/Downloads/AccountCreateWaitlist.cls",
+		"/Users/rvakati/Downloads/LightningRecordHomeWeather-master/src/classes/WeatherUtil.cls",
+		"/Users/rvakati/Downloads/Page",
+		"/Users/rvakati/Documents/tooling.wsdl",
+		"/Users/rvakati/Desktop/BLOGS/API /MetaData/package.xml",
+		"/Users/rvakati/Desktop/WDSLTest",
+		"/Users/rvakati/Desktop/CustomWSDL.wsdl",
+		"/Users/rvakati/Downloads/force-dot-com-esapi/trunk/src/classes/SFDCAccessController.cls",
+		"/Users/rvakati/Desktop/BigObject/package.xml",
+		"/Users/rvakati/Desktop/BigObject/Customer_Interaction__b.object",
+		"/Users/rvakati/Desktop/Ligh/Lightning-Apps-Event-Demo-master/src/Apex Class/LightningEventDemoController.cls",
+		"/Users/rvakati/Downloads/apex-s1-single-page-application-master/apex/classes/S1AccountController.cls",
+		"/Users/rvakati/Downloads/knockout-mapping-sfdc-rest-master/classes/Rest_LeadResource.cls",
+		"/Users/rvakati/Downloads/AssetStructureClass_Test.cls",
+		"/Users/rvakati/Downloads/Cls (1).cls",
+		"/Users/rvakati/Downloads/Analytics-Cloud-Dataset-Utils-datasetutils-37.0.1/run.bat",
+		"/Users/rvakati/Documents/web/JQUerRef.html",
+		"/Users/rvakati/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/rvakati/Documents/web/style.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{get;set;}",
+			"public  string ",
+			"public String ",
+			"action",
+			"price",
+			"priceEffectiveDate_line",
+			"date",
+			"expire"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			";",
+			"obj1.",
+			"obj1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/pages/AuditLogMonitering.page",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2003.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AuditLog.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 365.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

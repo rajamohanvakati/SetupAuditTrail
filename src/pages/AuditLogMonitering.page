@@ -1,0 +1,140 @@
+<apex:page controller="AuditLogMonitering" showHeader="false" sidebar="false" docType="html-5.0">
+    <apex:includescript value="//code.jquery.com/jquery-1.11.1.min.js" / >
+        <apex:includescript value="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js" />
+        <apex:stylesheet value="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css" />
+        <style>
+            .classDiv {
+            height: 100px;
+            width: 100px;
+            width: auto;
+            }
+            .headerStyle{
+            color: Black!important; 
+            font-size:100% !important; 
+            text-align:center;
+            font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+            font-size: 14px;
+            font-variant: normal;
+            font-weight: normal;
+            line-height: 17px;
+            width:150%;
+            }
+            body {
+            color: Black!important; 
+            text-align:center;
+            font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+            font-variant: normal;
+            font-weight: normal;
+            
+            }
+            
+            table{
+            margin: 0 auto;
+            width: 100%;
+            clear: both;
+            border-collapse: collapse;
+            table-layout: fixed;  
+            word-wrap:break-word;  
+            }
+            
+        </style>
+        
+        
+        <script>
+        j$ = jQuery.noConflict();
+        j$(document).ready( function () {
+            var contactTable = j$('[id$="dataTab"]').DataTable({
+                "columnDefs": [
+                    { "width": "15%", "targets": 0 },
+                    { "width": "15%", "targets": 1 },
+                    { "width": "15%", "targets": 2 },
+                    { "width": "15%", "targets": 3 },
+                    { "width": "15%", "targets": 4 },
+                    { "width": "15%", "targets": 5 },
+                    { "width": "10%", "targets": 5 }
+                ]
+            });
+        });
+        </script>
+        <apex:form >
+            <br/>
+            <div class="classDiv">
+                
+                <table class="table table-bordered table-hover" id="tab_logic">
+                    <thead class="headerStyle">
+                        <tr >
+                            <th class="text-center">
+                                Sort By 
+                            </th>
+                            <th class="text-center">
+                                Start Date
+                            </th>
+                            <th class="text-center">
+                                End Date
+                            </th>
+                            <th class="text-center">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id='addr0'>
+                            <th class="text-center">
+                                
+                                <apex:selectList value="{!sortBy}" size="1" required="true">
+                                    <apex:selectOptions value="{!SortByList}"/>
+                                </apex:selectList>
+                            </th>
+                            <th class="text-center">
+                                <apex:input type="date" value="{!startDate}"  />
+                            </th>
+                            <th class="text-center">
+                                <apex:input type="date" value="{!endDate}" />
+                            </th>
+                            <th class="text-center">
+                                <apex:commandButton value="Fetch Date" 
+                                                    action="{!showData}"/>
+                            </th>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br/>
+            
+            
+            <table id="dataTab" class="display">
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Create by Name </th>
+                        <th>Created by Profile </th>
+                        <th>Create Date </th>
+                        <th>DelegateUser </th>
+                        <th>Dispaly  </th>
+                        <th>Section </th>
+                        
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <apex:repeat value="{!resultOfData}" var="data">
+                        <tr>
+                            <td class="">{!data.Action}</td>
+                            <td>{!data.CreatedBy.Name}</td>
+                            <td>{!data.CreatedBy.Profile.Name}</td>
+                            <td>{!data.CreatedDate}</td>
+                            <td>{!data.DelegateUser}</td>
+                            <td>{!data.Display}</td>
+                            <td>{!data.Section}</td>
+                            
+                            
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+            </table>
+            
+            
+        </apex:form>
+        
+        
+    </apex:page>

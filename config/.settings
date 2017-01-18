@@ -1,0 +1,17 @@
+{
+    "projectName": "AuditLog",
+    "username": "rvakati@gmail.com",
+    "id": "17645120-dd3e-11e6-8e4f-dd19788bdcab",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://har-dev-ed.my.salesforce.com",
+    "workspace": "/Users/rvakati/Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
